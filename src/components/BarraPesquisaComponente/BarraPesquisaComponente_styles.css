@@ -1,0 +1,22 @@
+.container-barra-pesquisa {
+  width: 40%;
+  height: 40px;
+  display: flex;
+}
+
+.container-barra-pesquisa input {
+  width: 90%;
+  border-radius: 40px 0 0 40px;
+  padding-left: 10px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-barra-pesquisa button {
+  width: 50px;
+  font-size: 1rem;
+  border-radius: 0 40px 40px 0;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.menu-dropdown {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  top: 100px;
+  width: 200px;
+  height: auto;
+  background-color: var(--branco);
+  z-index: 9;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.menu-dropdown::-webkit-scrollbar {
+  display: none;
+}
+
+.link-customizado {
+  width: 100%;
+  text-align: center;
+  background-color: var(--azul_marinho);
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.link-customizado:hover {
+  background-color: var(--azul_piscina);
+}
+
+.link-customizado:active {
+  background-color: var(--branco);
+  box-shadow: 0 0 3px inset var(--azul_marinho);
+}
+
+.link-customizado a {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.link-customizado:active a {
+  color: var(--azul_marinho);
+  font-size: 0.8rem;
+}
