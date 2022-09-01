@@ -7,7 +7,8 @@
 }
 
 .header-area {
-  width: 80%;
+  width: calc(100% - 5vw);
+  max-width: 1200px;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -39,6 +40,7 @@
 }
 
 .area-de-clique .menu-dropdown {
+  transform: translate(-20px, 0);
   pointer-events: none;
   border: none;
   width: 200px;
