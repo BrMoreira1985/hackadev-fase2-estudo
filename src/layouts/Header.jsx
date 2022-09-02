@@ -4,13 +4,16 @@ import { FaShoppingCart } from "react-icons/fa";
 import BarraPesquisaComponente from "../components/BarraPesquisaComponente/BarraPesquisaComponente";
 import MenuDropdownComponente from "../components/MenuDropdownComponente/MenuDropdownComponente";
 import LinkCustomizadoComponente from "../components/MenuDropdownComponente/LinkCustomizadoComponente";
-import LogoOcean from "../imagens/Ocean_logo.png";
 
 export default function Header() {
   return (
     <div className="header-container">
       <div className="header-area">
-        <img className="icone" src={LogoOcean} alt="" />
+        <img
+          className="icone"
+          src={require("./images/Ocean_logo.png")}
+          alt=""
+        />
 
         <BarraPesquisaComponente />
         <div className="menu-usuario">

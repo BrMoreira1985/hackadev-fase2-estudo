@@ -16,6 +16,7 @@
   --shadow: #fdded8;
   --azul_piscina: #478f98;
   --azul_marinho: #1b2c58;
+  --transparente: rgba(255, 255, 255, 0);
 }
 
 * {
@@ -27,6 +28,7 @@
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.1rem;
   color: var(--azul_marinho);
+  pointer-events: none;
 }
 
 a {

@@ -7,7 +7,7 @@
   top: 100px;
   width: 200px;
   height: auto;
-  background-color: var(--branco);
+  background-color: var(--transparente);
   z-index: 9;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -23,6 +23,7 @@
   background-color: var(--azul_marinho);
   text-transform: uppercase;
   border-radius: 5px;
+  pointer-events: all;
 }
 
 .link-customizado:hover {
@@ -30,13 +31,16 @@
 }
 
 .link-customizado:active {
-  background-color: var(--branco);
   box-shadow: 0 0 3px inset var(--azul_marinho);
 }
 
 .link-customizado a {
   color: white;
   font-size: 0.8rem;
+}
+
+.link-customizado a:hover {
+  letter-spacing: 0.15rem;
 }
 
 .link-customizado:active a {

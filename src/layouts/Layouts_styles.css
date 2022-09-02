@@ -36,6 +36,7 @@
   flex-direction: column;
   width: 40%;
   height: 40px;
+  pointer-events: all;
   cursor: pointer;
 }
 
@@ -70,4 +71,9 @@
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.footer-container {
+  background-color: var(--navbar);
+  opacity: 0.3;
 }
